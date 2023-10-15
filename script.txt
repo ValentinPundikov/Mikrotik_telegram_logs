@@ -2,7 +2,7 @@
 # set router name
 :global routername "Mikrotik_home";
 # set url to telegramm bot
-:global sendToTele "https://api.telegram.org/6325023349:AAHuQyWMjvFwbrndh6nHHDPs7AJrsev8zAY/sendmessage\?chat_id=-869031863&text=";
+:global sendToTele "https://api.telegram.org/TOKEN/sendmessage\?chat_id=-CHATID&text=";
 # set downloaded Gb
 :global rxbyte [/interface get [find name=ether1] rx-byte];
 :global simplGbrxreport ($rxbyte / 1073741824);
