@@ -2,8 +2,8 @@ import asyncio
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message
 
-TOKEN_TELEGRAM = "6325023349:AAHuQyWMjvFwbrndh6nHHDPs7AJrsev8zAY"
-ADMIN_ID="869031863"
+TOKEN_TELEGRAM = ""
+ADMIN_ID=""
 
 async def main():
     bot = Bot(token=TOKEN_TELEGRAM)
